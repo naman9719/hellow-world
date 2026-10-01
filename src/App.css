@@ -1,3 +1,38 @@
+
+body {
+  background-color: #f5f6fa;
+  padding-bottom: 90px;
+}
+
+.product-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s box-shadow 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+  height: 200px;
+  object-fit: contain;
+  padding: 16px;
+  background:#fff;
+  border-radius: 12px 12px 0 0;
+
+}
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +70,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* navbar................ */
+
+
+.custom-navbar {
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  padding: 12px 0;
+}
+
+.custom-navbar .navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.cart-pill {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.cart-pill:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
 }
